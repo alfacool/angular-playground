@@ -1,6 +1,11 @@
 <div class="layout-container">
   <header class="header">logo</header>
-  <nav class="sidebar">sidebar</nav>
+  <nav class="sidebar">
+    sidebar
+    <p class="underline cursor-pointer mt-4" (click)="navigateTo()">
+      Currency Converter
+    </p>
+  </nav>
   <main class="content">
     <section><router-outlet /></section>
   </main>
